@@ -1,32 +1,32 @@
 {
-  "expo": {
-    "name": "tipCalc",
-    "slug": "tipCalc",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+	"expo": {
+		"sdkVersion": "44.0.0",
+		"name": "Tip Calculator",
+		"slug": "tip-calculator",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./logo.png",
+		"splash": {
+			"image": "./logo.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"ios": {
+			"icon": "./logo.png",
+			"supportsTablet": true,
+			"bundleIdentifier": "dev.mikeschmidt.tipcalc",
+			"buildNumber": "1.0.0"
+		},
+		"android": {
+			"package": "dev.mikeschmidt.tipcalc",
+			"versionCode": 1,
+			"adaptiveIcon": {
+				"foregroundImage": "./logo.png",
+				"backgroundColor": "#FFFFFF"
+			}
+		}
+	}
 }
